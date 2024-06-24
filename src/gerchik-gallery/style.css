@@ -1,0 +1,16 @@
+.gte-gallery {
+  margin: 2rem 0px;
+}
+.gte-gallery .wp-block-gallery {
+  --wp--style--unstable-gallery-gap: var(
+    --wp--style--gallery-gap-default,
+    var(--gallery-block--gutter-size, var(--wp--style--block-gap, 1rem))
+  ) !important;
+  gap: var(
+    --wp--style--gallery-gap-default,
+    var(--gallery-block--gutter-size, var(--wp--style--block-gap, 1rem))
+  ) !important;
+}
+.gte-gallery .wp-block-gallery figure img {
+  border-radius: 24px;
+}

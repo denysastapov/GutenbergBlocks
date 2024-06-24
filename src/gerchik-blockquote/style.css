@@ -1,0 +1,24 @@
+.gte-quote p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 18px;
+}
+
+.gte-quote cite {
+  color: #7b7891;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 600;
+}
+.gte-quote blockquote {
+  border-left: none;
+  padding: 0px;
+  font-size: inherit;
+}
+.gte-quote {
+  display: flex;
+}
+.gte-quote::before {
+  content: url("/assets/ico_quote.svg");
+  margin-right: 2rem;
+}
